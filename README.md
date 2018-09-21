@@ -7,4 +7,4 @@ Implements object-oriented practices using the C programming language. Uses scal
 
 To execute the program, first compile the program using the provided Makefile and then use the commandline comands ./prim yourInputFileHere
 
-To ensure correct syntax, read the heading of prim.c
+To ensure correct syntax when reading in your graph, read the instructions in the heading of prim.c
