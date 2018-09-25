@@ -1,5 +1,5 @@
 # Prims-MST-Algorithm
-Consists of scalable C programs in order to run prims algorithm effeciently.
+Consists of scalable object-oriented C to run prims algorithm in O(ElogV).
 
 Final Project from Data Structures and Algorithims class at the University of Alabama.
 
