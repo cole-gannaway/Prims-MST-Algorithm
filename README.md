@@ -1,8 +1,8 @@
 # Prims-MST-Algorithm
 
-Final Project from Data Structures and Algorithims class at the University of Alabama.
+Final Project from Data Structures and Algorithms class at the University of Alabama.
 
-Implements scalable, generic object-oriented classes with memory management practices to execute Prim's Algorithim in an O(ElogV) runtime complexity.
+Implements scalable, generic object-oriented classes with memory management practices to execute Prim's Algorithm in an O(ElogV) runtime complexity.
 
 To execute the program, first compile the program using the provided Makefile and then use the commandline comands ./prim yourInputFileHere.
 
