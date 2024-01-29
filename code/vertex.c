@@ -53,7 +53,12 @@ newVERTEX(int n)
 void
 freeVERTEX(void *w)
     {
-        // IM A BAD ACTOR AND REMOVED ALL CODE FROM THIS FUNCTION
+        int* ptr = NULL;
+        {
+            int i = 10;
+            ptr = &i;
+        } // variable i goes out of scope here
+        *ptr = 10; // Noncompliant: writing to out-of-scope-variable
     }
 
 /*** accessors *******************/
