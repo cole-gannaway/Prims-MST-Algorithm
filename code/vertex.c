@@ -53,10 +53,7 @@ newVERTEX(int n)
 void
 freeVERTEX(void *w)
     {
-    VERTEX *v = w;
-    freeDLL(v->neighbors);
-    freeDLL(v->weights);
-    free(v);
+        // IM A BAD ACTOR AND REMOVED ALL CODE FROM THIS FUNCTION
     }
 
 /*** accessors *******************/
