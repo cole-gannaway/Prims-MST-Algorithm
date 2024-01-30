@@ -59,13 +59,6 @@ freeVERTEX(void *w)
             ptr = &i;
         } // variable i goes out of scope here
         *ptr = 10; // Noncompliant: writing to out-of-scope-variable
-
-        // introducing a security hotspot
-        char *src;
-        char dest[256];
-        strcpy(dest, "Result: ");
-        strcat(dest, src); // Sensitive: might overflow
-        return doSomethingWith(dest);
     }
 
 /*** accessors *******************/
